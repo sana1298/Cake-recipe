@@ -1,0 +1,328 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.ingredient{
+    display: flex;
+    justify-content:start; 
+}
+.head{
+    display: flex;
+    justify-content:space-between; 
+    flex-direction: row-reverse;
+}
+.cake{
+   width: 969px;
+}
+.main > h1{
+    width: 587px;
+    height: 64px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+}
+.main > p{
+    width: 592px;
+    height: 51px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.main > img{
+    width: 969px;
+    height: 470px;
+    margin-top: 20px;
+}
+.container{
+    width: 216px;
+    height: 367px;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+/* .container{
+    width: 216px;
+    height: 350px;
+    
+} */
+.content-container{
+    display: flex;
+    gap: 10px;
+}
+.head{
+    margin-top: 30px;
+}
+.box1 i{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+.box{
+    color: #F2994A;
+}
+.content > h6{
+    width: 61px;
+    height: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.content .p{
+    width: 80px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.content1 > h6{
+    width:40px ;
+    height: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.content1 > p{
+    width: 77px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;   
+}
+.list > h2{
+    width: 128px;
+    height: 32px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.list > p{
+    /* width: 177px; */
+    height: 24px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+   color: #333333;
+   margin-top: 20px;
+} 
+.list > h3{
+    width: 287px;
+    height: 48px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 25px;
+}
+.recipe{
+    margin-top: 20px;  
+}
+.ingredient{
+    gap: 15px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+.ingredient-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+.information{
+    margin-top: 20px;
+}
+.information > h2{
+    width: 137px;
+    height: 32px;  
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0e0d0d;
+}
+.info{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.info > button{
+    width: 36px;
+    height: 36px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background-color: #F2994A;
+    border-radius: 6px;
+    border: none;
+    padding-bottom: 5px;
+}
+.info .para1{
+    width: 528px;
+    height: 40px;
+    font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #000000;
+}
+.info .para2{
+    width: 528px;
+   height: 264px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+.info .para3{
+    width: 528px;
+    height: 240px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.info .para4{
+    width: 528px;
+    height: 240px;
+    font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;  
+}
+.info .para5{
+    width: 528px;
+    height: 192px;
+    font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+.info .para6{
+    width: 528px;
+    height: 96px;
+    font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+.info .para7{
+    width: 528px;
+    height: 48px;
+    font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+}
+@media only screen and (max-width: 770px){
+     body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    } 
+    .main > img{
+        width: 720px;
+        height: 410px;
+    }
+    .container{
+        width: 350px;
+        height: 130px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows:  auto auto;
+        row-gap: 0px;
+        column-gap: 10px;
+        box-shadow: none;
+        /* grid-column:1/span 4 ; */
+    }
+    .head{
+        display: flex;
+        justify-content:space-between; 
+        flex-direction: column-reverse;
+        flex-direction: column;
+        /* flex-direction: row-reverse; */
+    }
+     
+}
+@media only screen and (max-width: 325px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        /* margin-right: -110px; */
+    } 
+    .cake{
+        width: 325px;
+    }
+    
+}
